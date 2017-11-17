@@ -96,6 +96,7 @@ img{
     right: 0;
     top: 40px;
     display: none;
+    z-index: 1;
 }
 /*nav 结束*/
 
@@ -197,4 +198,28 @@ img{
     right: 0;
     top: 37px;
 }
+.search{
+    width: 296px;
+    height: 50px;
+    float: right;
+    margin-top: 20px;
+}
+.search-text{
+    width: 222px;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    float: left;
+    font-size: 14px;
+}
+.search-submit{
+    width: 52px;
+    height: 50px;
+    background: #ffffff;
+    float: left;
+
+    border: 1px solid #e0e0e0;
+}
+
 /*header结束*/

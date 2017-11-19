@@ -245,14 +245,14 @@ img{
 /*header结束*/
 
 /*轮播图开始*/
-.slide-img-box{
+.ad-img-box{
     position: relative;
 }
-.first-slide{
+.ad-slide{
     width: 1226px;
     height: 460px;
 }
-.slide-img-box img{
+.ad-img-box img{
     width: 1226px;
     height: 460px;
     position: absolute;

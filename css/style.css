@@ -15,6 +15,7 @@ img{
 .wrapper{
     width: 1226px;
     margin: 0 auto;
+    position: relative;
 }
 /*共用样式开始*/
 
@@ -96,7 +97,7 @@ img{
     right: 0;
     top: 40px;
     display: none;
-    z-index: 1;
+    z-index: 2;
 }
 /*nav 结束*/
 
@@ -203,6 +204,7 @@ img{
     height: 50px;
     float: right;
     margin-top: 20px;
+    position: relative;
 }
 .search-text{
     width: 222px;
@@ -212,13 +214,92 @@ img{
     outline: none;
     float: left;
     font-size: 14px;
+    line-height: 48px;
 }
 .search-submit{
     width: 52px;
     height: 50px;
-    background: #ffffff;
     float: left;
     border: 1px solid #e0e0e0;
+    border-left: 0px;
+    cursor: pointer;
+    position: relative;
+    background: transparent;
+    outline: none;
+    z-index: 1;
 }
-
+.search-submit:hover+i{
+    color: #ffffff;
+    background: #ff6700;
+}
+.icon-search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
 /*header结束*/
+
+/*轮播图开始*/
+.slide-img-box{
+    position: relative;
+}
+.first-slide{
+    width: 1226px;
+    height: 460px;
+}
+.slide-img-box img{
+    width: 1226px;
+    height: 460px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.prev-btn,.next-btn{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    top: 50%;
+    margin-top: -34.5px;
+    font-size: 50px;
+    line-height: 69px;
+    text-align: center;
+    border-radius: 4px;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+.prev-btn{
+    left: 234px;
+}
+.next-btn{
+    right: 0;
+}
+.prev-btn:hover,.next-btn:hover{
+    color: #ffffff;
+    background: rgba(0,0,0,0.5);
+}
+.btns li{
+    width: 6px;
+    height: 6px;
+    background: #232429;
+    border: 2px solid #65666b;
+    border-radius: 50%;
+    margin: 0 5px;
+    float: left;
+    cursor: pointer;
+}
+.btns li:hover{
+    background: #898a8e;
+    border: 2px solid #4f4e56;
+}
+.btns{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    float: left;
+}
+/*轮播图结束*/

@@ -15,7 +15,7 @@ img{
 .wrapper{
     width: 1226px;
     margin: 0 auto;
-    position: relative;
+
 }
 /*共用样式开始*/
 
@@ -109,7 +109,7 @@ img{
 .header-logo{
     width: 55px;
     height: 55px;
-    background: url("../img/mi-logo.png") no-repeat #ff6700 50% 50%;
+    background: url("../img/header/mi-logo.png") no-repeat #ff6700 50% 50%;
     margin-top: 22px;
     float: left;
 }
@@ -244,62 +244,3 @@ img{
 }
 /*header结束*/
 
-/*轮播图开始*/
-.ad-img-box{
-    position: relative;
-}
-.ad-slide{
-    width: 1226px;
-    height: 460px;
-}
-.ad-img-box img{
-    width: 1226px;
-    height: 460px;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.prev-btn,.next-btn{
-    width: 41px;
-    height: 69px;
-    position: absolute;
-    top: 50%;
-    margin-top: -34.5px;
-    font-size: 50px;
-    line-height: 69px;
-    text-align: center;
-    border-radius: 4px;
-    color: #e0e0e0;
-    cursor: pointer;
-}
-.prev-btn{
-    left: 234px;
-}
-.next-btn{
-    right: 0;
-}
-.prev-btn:hover,.next-btn:hover{
-    color: #ffffff;
-    background: rgba(0,0,0,0.5);
-}
-.btns li{
-    width: 6px;
-    height: 6px;
-    background: #232429;
-    border: 2px solid #65666b;
-    border-radius: 50%;
-    margin: 0 5px;
-    float: left;
-    cursor: pointer;
-}
-.btns li:hover{
-    background: #898a8e;
-    border: 2px solid #4f4e56;
-}
-.btns{
-    position: absolute;
-    right: 30px;
-    bottom: 20px;
-    float: left;
-}
-/*轮播图结束*/

@@ -1,3 +1,146 @@
 body{
     height: 5000px;
 }
+/*轮播图开始*/
+.slide-box{
+    position:relative;
+}
+.ad-slide{
+    position: relative;
+    height: 460px;
+}
+.ad-img-box img{
+    width: 1226px;
+    height: 460px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.prev-btn,.next-btn{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    top: 50%;
+    margin-top: -34.5px;
+    font-size: 50px;
+    line-height: 69px;
+    text-align: center;
+    border-radius: 4px;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+.prev-btn{
+    left: 234px;
+}
+.next-btn{
+    right: 0;
+}
+.prev-btn:hover,.next-btn:hover{
+    color: #ffffff;
+    background: rgba(0,0,0,0.5);
+}
+.btns li{
+    width: 6px;
+    height: 6px;
+    background: #232429;
+    border: 2px solid #65666b;
+    border-radius: 50%;
+    margin: 0 5px;
+    float: left;
+    cursor: pointer;
+}
+.btns li:hover{
+    background: #898a8e;
+    border: 2px solid #4f4e56;
+}
+.btns{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    float: left;
+}
+.list{
+    width: 234px;
+    padding: 20px 0;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+.left-nav>a{
+    display: block;
+    height: 42px;
+    color: #ffffff;
+    padding-left: 30px;
+    line-height: 42px;
+    font-size: 14px;
+}
+.left-nav>a:hover{
+    background: #ff6700;
+}
+.left-nav:hover .child-list{
+    display: block;
+}
+.icon-arrow{
+    float: right;
+    margin-right: 15px;
+}
+.child-list{
+    position: absolute;
+    top: 0;
+    left: 234px;
+    height: 100%;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.18);
+    display: none;
+}
+.child-list-3{
+    width: 795px;
+}
+.child-list ul{
+    background: #ffffff;
+    height: 100%;
+    width: 265px;
+    float: left;
+}
+.child-list li{
+    overflow: hidden;
+    padding:18px 15px 18px 20px;
+}
+.child-list a{
+    float: left;
+}
+.list-img-box:hover .list-title{
+    color: #ff6700;
+}
+.list-img-box{
+    width: 170px;
+    height: 41px;
+}
+.list-img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.list-title{
+    color: #333333;
+    font-size: 14px;
+}
+.child-list a.buy-btn{
+    float: right;
+    width: 58px;
+    height: 22px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    line-height: 22px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 6px;
+}
+.notepad{
+    width: 225px;
+
+}
+/*轮播图结束*/

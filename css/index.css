@@ -90,14 +90,19 @@ body{
     position: absolute;
     top: 0;
     left: 234px;
-    height: 100%;
-    border-top: 1px solid #e0e0e0;
+    height: 458px;
+    border: 1px solid #e0e0e0;
+    border-left:0;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.18);
     display: none;
 }
 .child-list-3{
     width: 795px;
 }
+.child-list-4{
+    width:992px;
+}
+
 .child-list-1{
     width: 265px;
 }
@@ -109,7 +114,7 @@ body{
 }
 .child-list li{
     overflow: hidden;
-    padding:18px 15px 18px 20px;
+    padding:18px 8px 18px 20px;
 }
 .child-list a{
     float: left;
@@ -144,6 +149,11 @@ body{
 }
 .notepad{
     width: 225px;
-
+}
+.notepad-1{
+    width: 225px;
+}
+.child-list-4 ul{
+    width: 248px;
 }
 /*轮播图结束*/

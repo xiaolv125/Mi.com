@@ -160,3 +160,76 @@ body{
     width: 530px;
 }
 /*轮播图结束*/
+
+/*频道列表开始*/
+.channel-box{
+    margin-top: 14px;
+}
+.channel-list{
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+    float: left;
+}
+.channel-list ul{
+    overflow: hidden;
+    padding: 3px;
+}
+.channel-list li{
+    width: 70px;
+    height: 82px;
+    float: left;
+    padding:0 3px;
+    position: relative;
+}
+.channel-list li:hover i,.channel-list li:hover span{
+    color: #fffcf9;
+}
+.channel-list i{
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 18px;
+}
+.channel-list span{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    text-align: center;
+}
+.line-right{
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 1px;
+    height: 70px;
+    background: #665e57;
+}
+.line-bottom{
+    position: absolute;
+    bottom: 1px;
+    left: 6px;
+    width: 64px;
+    height: 1px;
+    background: #665e57;
+}
+.promo-list{
+    float: left;
+}
+.promo-list a{
+    float: left;
+    margin-left: 15px;
+}
+.promo-list .a1{
+    margin-left: 14px;
+}
+.promo-list img{
+    width: 316px;
+    height: 170px;
+    display: block;
+}
+.promo-list img:hover{
+    box-shadow:  0px 7px 15px 5px rgba(0,0,0,0.1);
+}
+/*频道列表结束*/

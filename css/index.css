@@ -236,7 +236,7 @@ body{
 }
 /*频道列表结束*/
 
-/*频道列表结束*/
+/*明星单品开始*/
 .star-box{
     position: relative;
 }
@@ -252,4 +252,77 @@ body{
     right: 0;
     top: 20px;
 }
-/*频道列表结束*/
+.more-box i{
+    border:1px solid #e0e0e0;
+    color: #e0e0e0;
+    width: 24px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    padding:3px 5px;
+    float: left;
+    font-size: 16px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.more-box i.icon-active{
+    color: #b0b0b0;
+}
+.more-box i.icon-active:hover{
+    color: #ff6700;
+}
+.star-pro-list{
+    overflow: hidden;
+}
+.star-pro-list ul{
+    width: 2480px;
+}
+.star-pro-item{
+    text-align: center;
+    width: 234px;
+    height: 300px;
+    padding-top: 39px;
+    background: #fafafa;
+    float: left;
+    margin-right: 14px;
+}
+.star-pro-img{
+    width: 160px;
+    height: 160px;
+
+}
+.star-pro-title{
+    display: block;
+    color:#212121;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.star-pro-desc{
+    color: #b0b0b0;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.star-pro-price{
+    color: #ff6709;
+    font-size: 14px;
+    font-weight: 400;
+}
+.color-orange{
+    border-top:1px solid #ffac13;
+}
+ .color-green{
+     border-top:1px solid #83c44e;
+ }
+.color-blue{
+    border-top:1px solid #2196f3;
+}
+.color-red{
+    border-top:1px solid #e53935;
+}
+.color-skyblue{
+    border-top:1px solid #00c0a5;
+}
+/*明星单品结束*/

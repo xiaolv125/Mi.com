@@ -289,7 +289,6 @@ body{
 .star-pro-img{
     width: 160px;
     height: 160px;
-
 }
 .star-pro-title{
     display: block;
@@ -299,11 +298,15 @@ body{
     margin-bottom: 3px;
     font-size: 14px;
     font-weight: 400;
+    height: 21px;
+    line-height: 21px;
 }
 .star-pro-desc{
     color: #b0b0b0;
     font-size: 12px;
     margin-bottom: 12px;
+    height: 18px;
+    line-height: 18px;
 }
 .star-pro-price{
     color: #ff6709;

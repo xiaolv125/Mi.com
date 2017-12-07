@@ -352,13 +352,14 @@ body{
     float: left;
     margin-left: 30px;
     font-weight:200;
+    cursor: pointer;
 }
 .tab-btns .tab-active{
     color: #ff6700;
     border-bottom: 2px solid #ff6700;
 }
 .box-bd{
-    overflow: hidden;
+    height: 619px;
 }
 .box-left{
     float: left;
@@ -368,7 +369,12 @@ body{
 .box-right{
     float: right;
     width: 992px;
-
+    position: relative;
+}
+.box-right ul{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .bd-pro-item{
     width: 234px;
@@ -376,13 +382,33 @@ body{
     background: #ffffff;
     float: left;
     margin-left: 14px;
-    text-align: center;
     margin-bottom: 14px;
+    position: relative;
+    top: 0;
+}
+.flag{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -32px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    width: 64px;
+    height: 20px;
+    line-height: 20px;
+}
+.flag.flag-saleoff{
+    background: #e53935;
+}
+.flag.flag-new{
+    background: #83c44e;
 }
 .bd-pro-img-box{
     display: block;
     margin-top: 34px;
     margin-bottom: 14px;
+    text-align: center;
 }
 .bd-pro-img{
     width: 150px;
@@ -391,21 +417,59 @@ body{
 .bd-title{
     font-size: 14px;
     color: #333333;
-
+    text-align: center;
     display: block;
 }
 .bd-desc{
     color: #b0b0b0;
-
+    text-align: center;
     font-size: 12px;
     margin-bottom: 10px;
 }
 .bd-price{
     color: #ff6700;
     font-size: 14px;
-
+    text-align: center;
 }
-
+.bd-review{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ff6700;
+    height: 0;
+    overflow: hidden;
+}
+.bd-review a{
+    padding:8px 30px;
+    display: block;
+    height: 60px;
+}
+.review{
+    color: #fff;
+    font-size: 12px;
+    display: block;
+}
+.author{
+    color: rgba(255,2555,255,0.6);
+    font-size: 12px;
+}
+.bd-pro-item:hover .bd-review{
+    animation:show-review 0.4s ease forwards;
+}
+@keyframes show-review {
+    100%{
+        height: 76px;
+    }
+}
+.bd-pro-item:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+    animation: run-review 0.4s ease forwards;
+}
+@keyframes run-review {
+    100%{
+        top: -2px;
+    }
+}
 /*家电结束*/
 
 

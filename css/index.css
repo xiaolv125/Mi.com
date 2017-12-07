@@ -1,5 +1,5 @@
 body{
-    height: 5000px;
+    height:10000px;
 }
 /*轮播图开始*/
 .slide-box{
@@ -239,8 +239,9 @@ body{
 /*明星单品开始*/
 .star-box{
     position: relative;
+
 }
-.star-title{
+.title{
     font-size: 22px;
     color: #333333;
     font-weight: 200;
@@ -273,6 +274,7 @@ body{
 }
 .star-pro-list{
     overflow: hidden;
+    margin-bottom: 40px;
 }
 .star-pro-list ul{
     width: 2480px;
@@ -290,7 +292,7 @@ body{
     width: 160px;
     height: 160px;
 }
-.star-pro-title{
+.pro-title{
     display: block;
     color:#212121;
     text-align: center;
@@ -301,14 +303,14 @@ body{
     height: 21px;
     line-height: 21px;
 }
-.star-pro-desc{
+.pro-desc{
     color: #b0b0b0;
     font-size: 12px;
     margin-bottom: 12px;
     height: 18px;
     line-height: 18px;
 }
-.star-pro-price{
+.pro-price{
     color: #ff6709;
     font-size: 14px;
     font-weight: 400;
@@ -329,3 +331,93 @@ body{
     border-top:1px solid #00c0a5;
 }
 /*明星单品结束*/
+/*家电开始*/
+.page-main{
+    background: #f5f5f5;
+    padding-top: 60px;
+    width:100%;
+    height: 5247.800px;
+}
+.page-box{
+    position: relative;
+}
+.tab-btns{
+    color: #424242;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 17px;
+}
+.tab-btns li{
+    float: left;
+    margin-left: 30px;
+    font-weight:200;
+}
+.tab-btns .tab-active{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+.box-bd{
+    overflow: hidden;
+}
+.box-left{
+    float: left;
+    width: 234px;
+    height: 614px;
+}
+.box-right{
+    float: right;
+    width: 992px;
+
+}
+.bd-pro-item{
+    width: 234px;
+    height: 300px;
+    background: #ffffff;
+    float: left;
+    margin-left: 14px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.bd-pro-img-box{
+    display: block;
+    margin-top: 34px;
+    margin-bottom: 14px;
+}
+.bd-pro-img{
+    width: 150px;
+    height: 150px;
+}
+.bd-title{
+    font-size: 14px;
+    color: #333333;
+
+    display: block;
+}
+.bd-desc{
+    color: #b0b0b0;
+
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.bd-price{
+    color: #ff6700;
+    font-size: 14px;
+
+}
+
+/*家电结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

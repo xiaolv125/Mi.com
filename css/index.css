@@ -375,6 +375,10 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
+}
+.box-right ul.selected{
+    display: block;
 }
 .bd-pro-item{
     width: 234px;
@@ -473,15 +477,44 @@ body{
 .small-item{
     height: 93px;
     padding-top: 50px;
+    position: relative;
 }
-.small-img{
+.small-box{
     position: absolute;
     right: 20px;
     top: 32px;
     width: 80px;
     height: 80px;
 }
-
+.small-bx{
+    width: 80px;
+    height: 86px;
+    display: block;
+}
+.small-img{
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.small-box-title {
+    margin: -10px 110px 5px 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.small-box-title a{
+    display: block;
+    width: 94px;
+    height: 21px;
+    color: #333;
+}
+.small-price{
+    margin: 0 110px 0 30px;
+    font-size: 12px;
+    color: #ff6700;
+}
+.small-price span{
+    font-size: 14px;
+}
 /*家电结束*/
 
 

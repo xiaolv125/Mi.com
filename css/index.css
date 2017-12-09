@@ -340,6 +340,8 @@ body{
 }
 .page-box{
     position: relative;
+    margin-bottom: 8px;
+    height: 686px;
 }
 .tab-btns{
     color: #424242;

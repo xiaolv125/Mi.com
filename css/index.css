@@ -392,6 +392,13 @@ body{
     position: relative;
     top: 0;
 }
+.two-pro-item{
+    margin-left: 0;
+}
+.two-pro-item img{
+    width: 234px;
+    height: 300px;
+}
 .flag{
     position: absolute;
     top: 0;
